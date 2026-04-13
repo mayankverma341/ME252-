@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import type { SynthesisResult } from "../lib/synthesis/pipeline";
 
 interface Props {

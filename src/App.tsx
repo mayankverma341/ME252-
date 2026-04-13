@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import FourPointPage from "./pages/FourPointPage";   // your existing page
 import FivePointPage from "./pages/FivePointPage";
 

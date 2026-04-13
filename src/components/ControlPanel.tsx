@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { useSynthesisStore } from "../store/useSynthesisStore";
 import type { SynthesisResult } from "../lib/synthesis/pipeline";
 

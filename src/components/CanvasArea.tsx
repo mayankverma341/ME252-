@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useCallback, useMemo } from "react";
+import { useRef, useEffect, useCallback, useMemo } from "react";
 import { useSynthesisStore } from "../store/useSynthesisStore";
 import type { SynthesisResult } from "../lib/synthesis/pipeline";
 import { distance } from "../lib/geometry/math";

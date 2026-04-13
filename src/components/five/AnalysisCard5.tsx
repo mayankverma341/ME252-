@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import type { Synthesis5Result } from "../../lib/synthesis5/types";
 import { PAIR_COMBINATIONS } from "../../lib/synthesis5/remap";
 import { useSynthesis5Store } from "../../store/useSynthesis5Store";

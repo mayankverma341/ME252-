@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import { useSynthesis5Store } from "../store/useSynthesis5Store";
 import { runSynthesis5 } from "../lib/synthesis5/pipeline";
 import type { Synthesis5Result } from "../lib/synthesis5/types";

@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import type { Point } from "../lib/geometry/math";
 import type { SynthesisResult } from "../lib/synthesis/pipeline";
 import { useSynthesisStore } from "../store/useSynthesisStore";

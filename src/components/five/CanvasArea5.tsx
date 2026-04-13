@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useCallback, useMemo } from "react";
+import { useRef, useEffect, useCallback, useMemo } from "react";
 import { useSynthesis5Store } from "../../store/useSynthesis5Store";
 import type { Synthesis5Result } from "../../lib/synthesis5/types";
 import { distance} from "../../lib/geometry/math";
