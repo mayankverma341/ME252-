@@ -299,7 +299,7 @@ function runCanonicalPipeline(
     );
     if (p4C.length === 0) continue;
 
-    const refSign4 = Math.sign(signedArea(iC[3], A4_try, HR));
+    // const refSign4 = Math.sign(signedArea(iC[3], A4_try, HR));
 
     // Try both point4 candidates too (swap4 toggle applies to final pick,
     // but here we try both to find best B1 geometry).

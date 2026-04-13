@@ -187,7 +187,7 @@ export function solveGhostPose(
     );
     if (biCands.length === 0) return null;
     // Pick the Bi closest to the reference B1 orientation
-    const refPhi = Math.atan2(B1.y - HR.y, B1.x - HR.x);
+    // const refPhi = Math.atan2(B1.y - HR.y, B1.x - HR.x);
     let bestPose: KinematicPose | null = null;
     let bestDist = Infinity;
     for (const Bi of biCands) {
